@@ -89,5 +89,10 @@ namespace hackathon_4_9_22
         {
           
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

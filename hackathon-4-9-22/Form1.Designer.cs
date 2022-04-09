@@ -36,14 +36,16 @@ namespace hackathon_4_9_22
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // textBox1
             // 
             this.textBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.textBox1.Location = new System.Drawing.Point(178, 101);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(1);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(126, 20);
             this.textBox1.TabIndex = 0;
@@ -55,7 +57,7 @@ namespace hackathon_4_9_22
             // 
             this.button1.BackColor = System.Drawing.Color.Silver;
             this.button1.Location = new System.Drawing.Point(191, 134);
-            this.button1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.button1.Margin = new System.Windows.Forms.Padding(1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 44);
             this.button1.TabIndex = 1;
@@ -76,7 +78,7 @@ namespace hackathon_4_9_22
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(183, 212);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.textBox2.Margin = new System.Windows.Forms.Padding(1);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(116, 20);
             this.textBox2.TabIndex = 3;
@@ -98,6 +100,15 @@ namespace hackathon_4_9_22
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(483, 340);
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -109,11 +120,13 @@ namespace hackathon_4_9_22
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.pictureBox2);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
+            this.Margin = new System.Windows.Forms.Padding(0);
             this.Name = "Form1";
             this.Text = "Weather Man";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,6 +140,7 @@ namespace hackathon_4_9_22
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
 
