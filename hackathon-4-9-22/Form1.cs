@@ -48,6 +48,7 @@ namespace hackathon_4_9_22
                     textBox2.Text = output;
                     string wspeed = forecast[0].windSpeed + " " + forecast[0].windDirection;
                     textBox3.Text = wspeed;
+                    textBox4.Text = forecast[0].detailedForecast;
 
                     // image
                     Image image = Image.FromStream(await forecast[0].icon.WithClient(fc).GetStreamAsync());
