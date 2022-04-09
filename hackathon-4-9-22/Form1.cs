@@ -44,7 +44,8 @@ namespace hackathon_4_9_22
                     var forecastReq = await pointsReq.properties.forecast.WithClient(fc).GetJsonAsync<ForecastRequest>();
 
                     this.forecast = forecastReq.properties.periods;
-
+                    String output = forecast[0].temperature.ToString();
+                    textBox2.Text = output;
                     Console.WriteLine(string.Format("It is {0}{1}", forecastReq.properties.periods[0].temperature, forecastReq.properties.periods[0].temperatureUnit));
                 }
             } catch (Exception e)
