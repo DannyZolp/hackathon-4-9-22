@@ -18,7 +18,7 @@ namespace hackathon_4_9_22
 {
     public partial class Form1 : Form
     {
-        public int temperature;
+        public List<Period> forecast;
 
         public Form1()
         {
@@ -42,7 +42,7 @@ namespace hackathon_4_9_22
 
                     var forecastReq = await pointsReq.properties.forecast.WithClient(fc).GetJsonAsync<ForecastRequest>();
 
-                    this.temperature = forecastReq.properties.periods[0].temperature;
+                    this.forecast = forecastReq.properties.periods;
 
                     Console.WriteLine(string.Format("It is {0}{1}", forecastReq.properties.periods[0].temperature, forecastReq.properties.periods[0].temperatureUnit));
                 }
@@ -50,6 +50,17 @@ namespace hackathon_4_9_22
             {
                 Console.WriteLine(e);
             }
+        }
+
+        public async Task grabCoordinates(string userInput)
+        {
+            var locationReq = await "https://geocode-api.arcgis.com/arcgis/rest/services/World/GeocodeServer/findAddressCandidates"
+                .SetQueryParam("f", "pjson")
+                .SetQueryParam("token", "AAPK7c62543ea6de4eff9591d102e27ef7c6hBGMaqGDrvmLt_yNZ9YBcKFWtiJGBh-qHhjz2uNoaAgmy1zwKWB-yhMciWNcsLUV")
+                .SetQueryParam("singleLine", userInput)
+                .GetJsonAsync<UserLocationRequest>();
+
+            await grabWeatherDataAsync(locationReq.candidates[0].location.x, locationReq.candidates[0].location.y);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
