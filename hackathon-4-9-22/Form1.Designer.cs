@@ -32,6 +32,7 @@ namespace hackathon_4_9_22
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // textBox1
@@ -61,15 +62,23 @@ namespace hackathon_4_9_22
             this.label1.TabIndex = 2;
             this.label1.Text = "Weather App";
             // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(425, 562);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(304, 38);
+            this.textBox2.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1284, 809);
+            this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Name = "Weather Application";
+            this.Name = "Form1";
             this.Text = "Weather Application";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -81,6 +90,7 @@ namespace hackathon_4_9_22
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox2;
     }
 }
 
