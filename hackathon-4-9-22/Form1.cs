@@ -51,7 +51,9 @@ namespace hackathon_4_9_22
 
                     // image
                     Image image = Image.FromStream(await forecast[0].icon.WithClient(fc).GetStreamAsync());
-                    
+
+                    pictureBox1.Image = image;
+
                     Console.WriteLine(string.Format("It is {0}{1}", forecastReq.properties.periods[0].temperature, forecastReq.properties.periods[0].temperatureUnit));
                 }
             } catch (Exception e)
