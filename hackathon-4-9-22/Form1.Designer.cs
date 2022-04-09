@@ -112,7 +112,7 @@ namespace hackathon_4_9_22
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(0, 0, 0, 0);
             this.Name = "Form1";
-            this.Text = "Weather Application";
+            this.Text = "Weather Man";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
