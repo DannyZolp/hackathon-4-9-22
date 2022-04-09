@@ -17,3 +17,10 @@ C:\Users\danny\GitHub\hackathon-4-9-22\hackathon-4-9-22\bin\Debug\Newtonsoft.Jso
 C:\Users\danny\GitHub\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.csproj.CopyComplete
 C:\Users\danny\GitHub\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.exe
 C:\Users\danny\GitHub\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.pdb
+C:\Users\F00525487\source\repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.csproj.AssemblyReference.cache
+C:\Users\F00525487\source\repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon_4_9_22.Form1.resources
+C:\Users\F00525487\source\repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon_4_9_22.Properties.Resources.resources
+C:\Users\F00525487\source\repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.csproj.GenerateResource.cache
+C:\Users\F00525487\source\repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.csproj.CoreCompileInputs.cache
+C:\Users\F00525487\source\repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.exe
+C:\Users\F00525487\source\repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.pdb
