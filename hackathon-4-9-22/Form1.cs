@@ -44,7 +44,7 @@ namespace hackathon_4_9_22
                     var forecastReq = await pointsReq.properties.forecast.WithClient(fc).GetJsonAsync<ForecastRequest>();
 
                     this.forecast = forecastReq.properties.periods;
-                    String output = forecast[0].temperature.ToString();
+                    String output = forecast[0].temperature.ToString() + "F";
                     textBox2.Text = output;
                     string wspeed = forecast[0].windSpeed + " " + forecast[0].windDirection;
                     textBox3.Text = wspeed;
