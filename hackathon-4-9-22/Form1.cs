@@ -18,6 +18,7 @@ namespace hackathon_4_9_22
 {
     public partial class Form1 : Form
     {
+        public string userLocation;
         public List<Period> forecast;
 
         public Form1()
@@ -65,12 +66,12 @@ namespace hackathon_4_9_22
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            grabCoordinates(userLocation);
         }
     }
 }
