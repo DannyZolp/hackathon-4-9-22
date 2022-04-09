@@ -69,8 +69,8 @@ namespace hackathon_4_9_22
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox1);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Weather Application";
+            this.Text = "Weather Application";
             this.ResumeLayout(false);
             this.PerformLayout();
 
