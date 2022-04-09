@@ -62,7 +62,7 @@ namespace hackathon_4_9_22
                 .SetQueryParam("singleLine", userInput)
                 .GetJsonAsync<UserLocationRequest>();
 
-            await grabWeatherDataAsync(locationReq.candidates[0].location.x, locationReq.candidates[0].location.y);
+            await grabWeatherDataAsync(locationReq.candidates[0].location.y, locationReq.candidates[0].location.x);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
