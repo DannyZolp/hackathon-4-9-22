@@ -43,7 +43,7 @@ namespace hackathon_4_9_22
             // 
             // textBox1
             // 
-            this.textBox1.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.textBox1.BackColor = System.Drawing.Color.White;
             this.textBox1.Location = new System.Drawing.Point(178, 101);
             this.textBox1.Margin = new System.Windows.Forms.Padding(1);
             this.textBox1.Name = "textBox1";
@@ -93,16 +93,18 @@ namespace hackathon_4_9_22
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(335, 115);
+            this.pictureBox1.Location = new System.Drawing.Point(40, 128);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(124, 122);
+            this.pictureBox1.Size = new System.Drawing.Size(82, 82);
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(-1, 0);
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.ImageLocation = "";
+            this.pictureBox2.Location = new System.Drawing.Point(0, 1);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(483, 340);
             this.pictureBox2.TabIndex = 6;
