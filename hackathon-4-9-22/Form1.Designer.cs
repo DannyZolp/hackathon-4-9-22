@@ -38,7 +38,7 @@ namespace hackathon_4_9_22
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(159, 125);
+            this.textBox1.Location = new System.Drawing.Point(178, 101);
             this.textBox1.Margin = new System.Windows.Forms.Padding(1);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(126, 20);
@@ -49,7 +49,7 @@ namespace hackathon_4_9_22
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(173, 158);
+            this.button1.Location = new System.Drawing.Point(191, 134);
             this.button1.Margin = new System.Windows.Forms.Padding(1);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 44);
@@ -61,7 +61,7 @@ namespace hackathon_4_9_22
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(187, 59);
+            this.label1.Location = new System.Drawing.Point(206, 73);
             this.label1.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(70, 13);
@@ -70,7 +70,7 @@ namespace hackathon_4_9_22
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(159, 236);
+            this.textBox2.Location = new System.Drawing.Point(183, 212);
             this.textBox2.Margin = new System.Windows.Forms.Padding(1);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(116, 20);
@@ -78,7 +78,7 @@ namespace hackathon_4_9_22
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(159, 269);
+            this.textBox3.Location = new System.Drawing.Point(183, 245);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(116, 20);
             this.textBox3.TabIndex = 4;
