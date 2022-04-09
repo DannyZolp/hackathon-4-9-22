@@ -46,7 +46,7 @@ namespace hackathon_4_9_22
                     this.forecast = forecastReq.properties.periods;
                     String output = forecast[0].temperature.ToString();
                     textBox2.Text = output;
-                    string wspeed = forecast[0].windSpeed + "MPH" + forecast[0].windDirection;
+                    string wspeed = forecast[0].windSpeed + " " + forecast[0].windDirection;
                     textBox3.Text = wspeed;
                     
                     Console.WriteLine(string.Format("It is {0}{1}", forecastReq.properties.periods[0].temperature, forecastReq.properties.periods[0].temperatureUnit));
@@ -82,7 +82,7 @@ namespace hackathon_4_9_22
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
+          
         }
     }
 }
