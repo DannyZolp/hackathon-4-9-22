@@ -1,0 +1,10 @@
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\bin\Debug\hackathon-4-9-22.exe.config
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\bin\Debug\hackathon-4-9-22.exe
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\bin\Debug\hackathon-4-9-22.pdb
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.csproj.AssemblyReference.cache
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon_4_9_22.Form1.resources
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon_4_9_22.Properties.Resources.resources
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.csproj.GenerateResource.cache
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.csproj.CoreCompileInputs.cache
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.exe
+C:\Users\Herwi\Source\Repos\hackathon-4-9-22\hackathon-4-9-22\obj\Debug\hackathon-4-9-22.pdb
